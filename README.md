@@ -1,6 +1,4 @@
 # Auto Close Twitch Ads
-Close, mute or hide Twitch video ads automatically while watching a stream!
-
 This script will automatically close, mute and hide video ads on Twitch.Tv while watching a stream.
 
 I love watching streams on Twitch, but sometime video ads become annoying. That's why i created this script to watch streams without disturbance while continue supporting my favorite streamer!
