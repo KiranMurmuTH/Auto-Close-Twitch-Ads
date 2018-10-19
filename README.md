@@ -1,10 +1,9 @@
-# Auto Close Twitch Ads
+[Auto Close Twitch Ads]
 This script will automatically close, mute and hide video ads on Twitch.Tv while watching a stream.
 
 I love watching streams on Twitch, but sometime video ads become annoying. That's why i created this script to watch streams without disturbance while continue supporting my favorite streamer!
 
-# Script features:
-This script has 5 menu options you can find in the Tampermonkey/Greasemonkey menus when you are on Twitch.Tv, the page will be reloaded if any of this options are changed.
+[Script features]: This script has 5 menu options you can find in the Tampermonkey/Greasemonkey menus when you are on Twitch.Tv, the page will be reloaded if any of this options are changed.
 
 Video ad duration - you can set the video ad duration with this option, default ad duration is 5 seconds.
 
