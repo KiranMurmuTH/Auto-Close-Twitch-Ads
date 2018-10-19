@@ -1,7 +1,7 @@
 /**
 MIT License
 
-Copyright (c) 2018+ Kiran Murmu
+Copyright (c) 2018+, Kiran Murmu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -26,10 +26,13 @@ SOFTWARE.
 // @namespace       https://github.com/kiranmurmuth
 // @description     Close, mute or hide Twitch video ads automatically while watching a stream!
 // @copyright       2018+, Kiran Murmu
-// @author          KiranMurmuTH
-// @license         MIT
-// @version         1.3.95
 // @match           *://*.twitch.tv/*
+// @author          KiranMurmuTH
+// @version         1.3.95
+// @source          https://github.com/kiranmurmuth/auto-close-twitch-ads
+// @updateURL       https://raw.github.com/kiranmurmuth/auto-close-twitch-ads/master/main-script.js
+// @downloadURL     https://raw.github.com/kiranmurmuth/auto-close-twitch-ads/master/main-script.js
+// @license         MIT
 // @grant           GM_info
 // @grant           GM_setValue
 // @grant           GM_getValue
@@ -47,8 +50,8 @@ playerQuery: 'div.player-video video', styleSheet: '.player-ad-notice > p {displ
 'button.player-button.player-button--volume span', advertQuery: 'div.js-ima-ads-container.ima-ads-container video', setStore: function(_key, _val) {
 if (typeof GM_setValue !== 'undefined') { return GM_setValue(_key, _val); } return _val; }, getStore: function(_key, _val) {
 if (typeof GM_getValue !== 'undefined') { return GM_getValue(_key, _val); } return _val; }, delStore: function(_key) {
-if (typeof GM_deleteValue !== 'undefined') { return GM_deleteValue(_key); } return 'undefined'; }}; _video.duration = _video.getStore(_video.scriptName(true)
-+ '.duration', _video.duration); _video.skipped = _video.getStore(_video.scriptName(true) + '.skipped', _video.skipped); _video.hidden = _video.getStore(
+if (typeof GM_deleteValue !== 'undefined') { return GM_deleteValue(_key); } return 'undefined'; }}; _video.duration = _video.getStore(_video.scriptName(true) +
+'.duration', _video.duration); _video.skipped = _video.getStore(_video.scriptName(true) + '.skipped', _video.skipped); _video.hidden = _video.getStore(
 _video.scriptName(true) + '.hidden', _video.hidden); _video.muted = _video.getStore(_video.scriptName(true) + '.muted', _video.muted);
 function noticeAd() { _video.present = document.querySelector(_video.presentQuery); if (typeof _video.present !== 'undefined' && _video.present) {
 _video.volume = document.querySelector(_video.volumeQuery); _video.dstyle = document.querySelector(_video.dstyleQuery);
