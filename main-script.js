@@ -23,15 +23,15 @@ SOFTWARE.
 **/
 // ==UserScript==
 // @name            Auto Close Twitch Ads
-// @namespace       https://github.com/kiranmurmuth
+// @namespace       https://github.com/kiranmurmuone
 // @description     Close, mute or hide Twitch video ads automatically while watching a stream!
 // @copyright       2018+, Kiran Murmu
 // @match           *://*.twitch.tv/*
-// @author          KiranMurmuTH
+// @author          kiranmurmuone
 // @version         1.3.95
-// @source          https://github.com/kiranmurmuth/auto-close-twitch-ads
-// @updateURL       https://raw.github.com/kiranmurmuth/auto-close-twitch-ads/master/main-script.js
-// @downloadURL     https://raw.github.com/kiranmurmuth/auto-close-twitch-ads/master/main-script.js
+// @source          https://github.com/kiranmurmuone/auto-close-twitch-ads
+// @updateURL       https://raw.github.com/kiranmurmuone/auto-close-twitch-ads/master/main-script.js
+// @downloadURL     https://raw.github.com/kiranmurmuone/auto-close-twitch-ads/master/main-script.js
 // @license         MIT
 // @grant           GM_info
 // @grant           GM_setValue
